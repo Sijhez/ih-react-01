@@ -14,8 +14,8 @@ import Main from './components/Main';
       return ( 
       <div className="App">
     <Header nombre="Sinuhe" ciudad="CDMX"/>
-    <Header nombre="Mike" ciudad="Veracruz"/>
-    <Header nombre="K'onhin" ciudad="Hidalgo"/>
+    {/* <Header nombre="Mike" ciudad="Veracruz"/>
+    <Header nombre="K'onhin" ciudad="Hidalgo"/> */}
            <p>Hola Mundo</p>
         <p>El Sijhez</p>
          <p>{6*5}</p> 
