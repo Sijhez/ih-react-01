@@ -1,25 +1,40 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Main from './components/Main';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+//ESTE FORMATO NO ES HTML COMPLETAMENTE, SINO TAMBIÉN INVOLUCR JAVASCRIPT SIMULTANEO
+//HTML +JS = JSX
+
+  
+    //Manejo de variables y otras funciones:
+    function App(){
+      const bootcamp = "Ironhack"
+      return ( 
+      <div className="App">
+    <Header nombre="Sinuhe" ciudad="CDMX"/>
+    <Header nombre="Mike" ciudad="Veracruz"/>
+    <Header nombre="K'onhin" ciudad="Hidalgo"/>
+           <p>Hola Mundo</p>
+        <p>El Sijhez</p>
+         <p>{6*5}</p> 
+        <p>{bootcamp}</p>
+  <hr/>
+
+  <Main/>
+  
+  <hr/>
+
+    <Footer pais="México"/>
+    <Footer pais="USA"/>
+    <Footer pais="La Ching..."/>
+     
+
     </div>
-  );
-}
+    );
+    }
+    
+  
 
 export default App;
